@@ -1,0 +1,4 @@
+/data
+/.aws
+*.ipynb_checkpoints
+*.DS_Store
