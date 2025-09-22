@@ -1,5 +1,7 @@
 ## Usage
-This project uses Nextflow inside a Docker container to run the PBMC multiome scRNA-seq and ATAC-seq analysis pipeline. All dependencies and the pipeline code are bundled for easy setup.
+This project provides a fully reproducible pipeline for analyzing single-cell multiomic data from 10x Genomics PBMC datasets (scRNA-seq and scATAC-seq). The workflow uses Nextflow for orchestration, Docker for reproducible environments, and Scanpy in Python for QC, dimensionality reduction, clustering, and marker gene discovery. With a single command, the pipeline downloads data, runs the analysis, and generates interactive Jupyter notebooks for exploration and visualization.
+
+All dependencies and the pipeline code are bundled for easy setup.
 
 # Requirements
 Docker installed on your machine
